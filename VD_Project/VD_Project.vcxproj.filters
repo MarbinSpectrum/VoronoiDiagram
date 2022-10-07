@@ -27,23 +27,12 @@
     <ClInclude Include="VD_Project.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="FieldData.h">
+    <ClInclude Include="Code\FieldData.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="VoronoiDiagram.h">
+    <ClInclude Include="Code\VoronoiDiagram.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="VD_Project.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="VoronoiDiagram.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="FieldData.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="VD_Project.rc">
@@ -57,5 +46,16 @@
     <Image Include="VD_Project.ico">
       <Filter>리소스 파일</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VD_Project.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\FieldData.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\VoronoiDiagram.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

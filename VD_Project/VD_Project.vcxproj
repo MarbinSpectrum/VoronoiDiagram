@@ -139,17 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="FieldData.h" />
+    <ClInclude Include="Code\FieldData.h" />
+    <ClInclude Include="Code\VoronoiDiagram.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="VD_Project.h" />
-    <ClInclude Include="VoronoiDiagram.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="FieldData.cpp" />
-    <ClCompile Include="VD_Project.cpp" />
-    <ClCompile Include="VoronoiDiagram.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="VD_Project.rc" />
@@ -157,6 +152,11 @@
   <ItemGroup>
     <Image Include="small.ico" />
     <Image Include="VD_Project.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\FieldData.cpp" />
+    <ClCompile Include="Code\VoronoiDiagram.cpp" />
+    <ClCompile Include="VD_Project.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
