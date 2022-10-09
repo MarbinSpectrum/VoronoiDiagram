@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Code\FieldData.h" />
     <ClInclude Include="Code\VoronoiDiagram.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Resource.h" />
@@ -154,7 +153,6 @@
     <Image Include="VD_Project.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Code\FieldData.cpp" />
     <ClCompile Include="Code\VoronoiDiagram.cpp" />
     <ClCompile Include="VD_Project.cpp" />
   </ItemGroup>

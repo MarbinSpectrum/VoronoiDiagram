@@ -27,6 +27,19 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     // TODO: 여기에 코드를 입력합니다.
 
+    inputList.emplace_back(640, 410);
+    inputList.emplace_back(300, 340);
+    inputList.emplace_back(780, 190);
+    inputList.emplace_back(460, 280);
+    inputList.emplace_back(580, 120);
+    inputList.emplace_back(1200, 50);
+    inputList.emplace_back(840, 310);
+    inputList.emplace_back(1120, 110);
+    inputList.emplace_back(1140, 450);
+    inputList.emplace_back(1020, 270);
+
+    VoronoiDiagram(inputList, vertexList, edgeList, areaList);
+
     // 전역 문자열을 초기화합니다.
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
     LoadStringW(hInstance, IDC_VDPROJECT, szWindowClass, MAX_LOADSTRING);
