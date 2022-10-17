@@ -139,6 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Code\Arc.h" />
+    <ClInclude Include="Code\BeachLine.h" />
+    <ClInclude Include="Code\Cell.h" />
+    <ClInclude Include="Code\Event.h" />
+    <ClInclude Include="Code\Fortune.h" />
+    <ClInclude Include="Code\Math.h" />
+    <ClInclude Include="Code\Point.h" />
     <ClInclude Include="Code\VoronoiDiagram.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Resource.h" />
@@ -153,6 +160,11 @@
     <Image Include="VD_Project.ico" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Code\Arc.cpp" />
+    <ClCompile Include="Code\BeachLine.cpp" />
+    <ClCompile Include="Code\Cell.cpp" />
+    <ClCompile Include="Code\Fortune.cpp" />
+    <ClCompile Include="Code\Math.cpp" />
     <ClCompile Include="Code\VoronoiDiagram.cpp" />
     <ClCompile Include="VD_Project.cpp" />
   </ItemGroup>

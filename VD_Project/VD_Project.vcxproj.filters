@@ -36,6 +36,27 @@
     <ClInclude Include="Code\VoronoiDiagram.h">
       <Filter>헤더 파일\Code</Filter>
     </ClInclude>
+    <ClInclude Include="Code\Arc.h">
+      <Filter>헤더 파일\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Math.h">
+      <Filter>헤더 파일\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Cell.h">
+      <Filter>헤더 파일\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Point.h">
+      <Filter>헤더 파일\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Fortune.h">
+      <Filter>헤더 파일\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Event.h">
+      <Filter>헤더 파일\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\BeachLine.h">
+      <Filter>헤더 파일\Code</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="VD_Project.rc">
@@ -55,6 +76,21 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Code\VoronoiDiagram.cpp">
+      <Filter>소스 파일\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Arc.cpp">
+      <Filter>소스 파일\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Math.cpp">
+      <Filter>소스 파일\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Cell.cpp">
+      <Filter>소스 파일\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Fortune.cpp">
+      <Filter>소스 파일\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\BeachLine.cpp">
       <Filter>소스 파일\Code</Filter>
     </ClCompile>
   </ItemGroup>

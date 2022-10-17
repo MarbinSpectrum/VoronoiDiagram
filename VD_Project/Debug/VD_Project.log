@@ -1,23 +1,2 @@
-﻿  VoronoiDiagram.cpp
-  VD_Project.cpp
-  코드를 생성하고 있습니다...
-D:\Program Files\Git\VoronoiDiagram\VD_Project\Code\VoronoiDiagram.h(431): warning C4715: 'Beachline::find_beachline': 모든 제어 경로에서 값을 반환하지는 않습니다.
-D:\Program Files\Git\VoronoiDiagram\VD_Project\Code\VoronoiDiagram.h(431): warning C4715: 'Beachline::find_beachline': 모든 제어 경로에서 값을 반환하지는 않습니다.
-VD_Project.obj : error LNK2005: "struct std::pair<double,double> __cdecl operator*(double,struct std::pair<double,double>)" (??D@YA?AU?$pair@NN@std@@NU01@@Z)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "struct std::pair<double,double> __cdecl operator-(struct std::pair<double,double>,struct std::pair<double,double>)" (??G@YA?AU?$pair@NN@std@@U01@0@Z)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "struct std::pair<double,double> __cdecl operator+(struct std::pair<double,double>,struct std::pair<double,double>)" (??H@YA?AU?$pair@NN@std@@U01@0@Z)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "double __cdecl operator/(struct std::pair<double,double>,struct std::pair<double,double>)" (??K@YANU?$pair@NN@std@@0@Z)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "void __cdecl VoronoiDiagram(class std::vector<struct std::pair<double,double>,class std::allocator<struct std::pair<double,double> > > &,class std::vector<struct std::pair<double,double>,class std::allocator<struct std::pair<double,double> > > &,class std::vector<struct std::pair<int,int>,class std::allocator<struct std::pair<int,int> > > &,class std::vector<struct std::pair<int,int>,class std::allocator<struct std::pair<int,int> > > &)" (?VoronoiDiagram@@YAXAAV?$vector@U?$pair@NN@std@@V?$allocator@U?$pair@NN@std@@@2@@std@@0AAV?$vector@U?$pair@HH@std@@V?$allocator@U?$pair@HH@std@@@2@@2@1@Z)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "int __cdecl dcmp(double)" (?dcmp@@YAHN@Z)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "struct std::pair<double,double> __cdecl get_circumcenter(struct std::pair<double,double>,struct std::pair<double,double>,struct std::pair<double,double>)" (?get_circumcenter@@YA?AU?$pair@NN@std@@U12@00@Z)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "struct std::pair<double,double> __cdecl line_intersect(struct std::pair<double,double>,struct std::pair<double,double>,struct std::pair<double,double>,struct std::pair<double,double>)" (?line_intersect@@YA?AU?$pair@NN@std@@U12@000@Z)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "double __cdecl parabola_intersect(struct std::pair<double,double>,struct std::pair<double,double>,double)" (?parabola_intersect@@YANU?$pair@NN@std@@0N@Z)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "struct std::pair<double,double> __cdecl r90(struct std::pair<double,double>)" (?r90@@YA?AU?$pair@NN@std@@U12@@Z)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "double __cdecl size(struct std::pair<double,double>)" (?size@@YANU?$pair@NN@std@@@Z)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "double __cdecl sq(double)" (?sq@@YANN@Z)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "double __cdecl sz2(struct std::pair<double,double>)" (?sz2@@YANU?$pair@NN@std@@@Z)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "class std::vector<struct std::pair<double,double>,class std::allocator<struct std::pair<double,double> > > inputList" (?inputList@@3V?$vector@U?$pair@NN@std@@V?$allocator@U?$pair@NN@std@@@2@@std@@A)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "class std::vector<struct std::pair<double,double>,class std::allocator<struct std::pair<double,double> > > vertexList" (?vertexList@@3V?$vector@U?$pair@NN@std@@V?$allocator@U?$pair@NN@std@@@2@@std@@A)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "class std::vector<struct std::pair<int,int>,class std::allocator<struct std::pair<int,int> > > edgeList" (?edgeList@@3V?$vector@U?$pair@HH@std@@V?$allocator@U?$pair@HH@std@@@2@@std@@A)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-VD_Project.obj : error LNK2005: "class std::vector<struct std::pair<int,int>,class std::allocator<struct std::pair<int,int> > > areaList" (?areaList@@3V?$vector@U?$pair@HH@std@@V?$allocator@U?$pair@HH@std@@@2@@std@@A)이(가) VoronoiDiagram.obj에 이미 정의되어 있습니다.
-D:\Program Files\Git\VoronoiDiagram\VD_Project\Debug\VD_Project.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+﻿  SplayTree.cpp
+  VD_Project.vcxproj -> D:\Program Files\Git\VoronoiDiagram\VD_Project\Debug\VD_Project.exe
